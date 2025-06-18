@@ -7,9 +7,8 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 const allowedOrigins = [
-  "http://localhost:3000",
-  "http://127.0.0.1:3000",
-  "http://ksosoog08g0wk8sccww4skso.167.235.255.190.sslip.io",
+  "https://pipeline-c5c0d.web.app",
+  "https://pipeline-c5c0d.firebaseapp.com"
 ];
 
 app.use(cors({
