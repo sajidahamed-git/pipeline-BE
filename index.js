@@ -21,7 +21,7 @@ const limiter = rateLimit({
 });
 // Apply the rate limiting middleware to all requests.
 
-app.use(limiter)
+app.use(limiter);
 
 app.use(
   cors({
@@ -37,11 +37,6 @@ app.use(
 );
 
 app.use(express.json());
-
-
-
-
-
 
 app.get("/", (req, res) => {
   res.json({ Ping: "Pong" });
