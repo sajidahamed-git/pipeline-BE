@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const graphlib = require("graphlib");
-import { rateLimit } from "express-rate-limit";
+const rateLimit = require('express-rate-limit')
 const { Graph } = graphlib;
 
 const app = express();
