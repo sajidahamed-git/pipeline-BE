@@ -8,7 +8,8 @@ const port = process.env.PORT || 8000;
 
 const allowedOrigins = [
   "https://pipeline-c5c0d.web.app",
-  "https://pipeline-c5c0d.firebaseapp.com"
+  "https://pipeline-c5c0d.firebaseapp.com",
+  "https://flow.sajidahamed.com"
 ];
 
 app.use(cors({
